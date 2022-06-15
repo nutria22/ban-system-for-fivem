@@ -1,4 +1,4 @@
---client.lua-- 
+--server.lua-- 
 
 RegisterCommand('unban', function(source, args)
     local data = GetResourceKvpString(string.format('vac_ban_%s', args[1]))
