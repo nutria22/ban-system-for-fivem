@@ -5,3 +5,4 @@ nutria.Whitelist = {
     "license::"
     "discord:"
 }
+nutria.Banmessage = "Vaya cuaker de shit"
