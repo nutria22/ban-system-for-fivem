@@ -14,7 +14,7 @@ RegisterCommand('unban', function(source, args)
       
       print('Sucsesfully deleted Ban Id:',args[1])
     else
-      print('Unable to find Ban Id: %s are you sure this is a valid ban?', args[1])
+      print('Unable to find Ban Id are you sure this is a valid ban?', args[1])
     end
   
     TriggerEvent('__vac_internal:playerUnbanned')
