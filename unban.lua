@@ -3,7 +3,6 @@
 RegisterCommand('unban', function(source, args)
     local data = GetResourceKvpString(string.format('vac_ban_%s', args[1]))
     local reason = 'No reason specified'
-  if isAdmin(source) then
     if (data) then
       -- check if a reason was provided
       if (args[2]) then
