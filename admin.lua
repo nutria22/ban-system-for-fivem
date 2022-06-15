@@ -1,4 +1,4 @@
---client--
+--sever--
 function isAdmin(src)
     local sid = GetPlayerIdentifiers(src)
     sid = sid[1]
