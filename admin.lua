@@ -22,6 +22,7 @@ AddEventHandler("Ue53dCG6hctHvrOaJB5Q", function(type, item)
         if (_type == "invisible") then
             LogDetection(_src, "Tried to be Invisible","basic")
             Citizen.Wait(600)
+                --31536000(time in s) = 365 days
   BanPlayer(_src, 31536000, '[Nutria] ' ..Nutria.Banmessage)
         elseif (_type == "godmode") then
             LogDetection(_src, "Tried to use GodMode. Type: ".._item,"basic")
