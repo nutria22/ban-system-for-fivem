@@ -2,7 +2,7 @@
 function isAdmin(src)
     local sid = GetPlayerIdentifiers(src)
     sid = sid[1]
-    for k, v in pairs(Nutrie.Whitelist) do
+    for k, v in pairs(Nutria.Whitelist) do
     if v == sid then
             return true
          end
